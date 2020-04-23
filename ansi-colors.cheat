@@ -1,0 +1,4 @@
+% ansi, colors
+
+# yellow
+echo "\e[33;2m"'<text>'"[0m" # test
