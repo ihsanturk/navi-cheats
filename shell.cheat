@@ -1,0 +1,8 @@
+% shell
+
+# Get the current timestamp
+date +%s
+
+# Last modified timestamp of a file
+date -r <file> +%s
+$ file: ls
