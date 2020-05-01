@@ -1,4 +1,4 @@
 % ssh
 
 # Forward localhost ip to another ip.
-ssh -L <port>:127.0.0.1:<port> -C -N -l <username> <server-ip>
+ssh -L <port>:127.0.0.1:<port> -C -N -l <server-username> <server-ip>
