@@ -1,0 +1,4 @@
+% imagemagick
+
+# invert png image with keeping transparent the background
+convert -channel rgb -negate +channel <input-image.png> <output-image.png>
