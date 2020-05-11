@@ -6,3 +6,6 @@ date +%s
 # Last modified timestamp of a file
 date -r <file> +%s
 $ file: ls
+
+# List most typed or used commands in history
+cat ~/.zsh_history | cut -d';' -f2- | sort | uniq -c | sort | less
